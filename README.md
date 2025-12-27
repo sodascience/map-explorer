@@ -65,7 +65,8 @@ The application currently supports one distinct configuration mode, determined b
 
 #### 1. GeoJSON + External Data File (`geojson-datafile`)
 
-Use this mode when you have a separate data file (e.g., CSV or parquet file) that needs to be joined with your GeoJSON geometries. The data file should contain a column that holds the region id's in the GeoJSON and a valueColumn that holds numberic values that are used to color the regions. It supports categorical columns that can be used as filters. Given an applied filter each region should map to a numerical value.
+Use this mode when you have a separate data file (e.g., CSV or parquet file) that needs to be joined with your GeoJSON geometries. The data file should contain a column that holds the region id's in the GeoJSON and a valueColumn that holds numberic values that are used to color the regions. This mode supports categorical columns that can be used as filters. 
+
 
 **Fields:**
 

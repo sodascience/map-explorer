@@ -13,7 +13,7 @@
         :key="option"
         :value="option"
       >
-        {{ option }}{{ warningOptions.includes(option) ? ' ⚠️' : '' }}
+        {{ option }}{{ warningOptions.includes(option) ? ' (no data)' : '' }}
       </option>
     </select>
   </div>

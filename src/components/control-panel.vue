@@ -165,17 +165,6 @@ watch(
   { immediate: true, deep: true }
 )
 
-// Also sync with config changes from parent
-watch(
-  () => props.config?.filter,
-  (newFilter) => {
-    if (newFilter) {
-      selectedFilters.value = { ...newFilter }
-    }
-  },
-  { deep: true }
-)
-
 const hasFilterOptions = computed(() =>
   props.availableFilterOptions && Object.keys(props.availableFilterOptions).length > 0
 )
