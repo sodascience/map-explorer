@@ -27,7 +27,7 @@
     "npm": "^11.18.0",
     "tailwindcss": "^4.3.1",
     "topojson": "^3.0.2",
-    "vue": "^3.5.38",
+    "vue": "^3.5.39",
     "zod": "^4.4.3"
   },
   "devDependencies": {
